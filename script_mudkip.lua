@@ -1,3 +1,8 @@
+-- Pokémon Emerald Shiny Starter Hunter (mGBA)
+-- Author: Andres Córdoba
+-- Description: Automates starter selection until shiny is found
+
+
 -- ===== CONFIG =====
 local PID_ADDR = 0x020244EC
 local TID_SID_ADDR = 0x020244F0
