@@ -2,10 +2,11 @@
 -- Author: Andres Córdoba
 -- Description: Automates starter selection until shiny is found
 
-
 -- ===== CONFIG =====
 local PID_ADDR = 0x020244EC
 local TID_SID_ADDR = 0x020244F0
+
+math.randomseed(os.time())
 
 function xor(a, b)
     local res = 0
@@ -79,7 +80,7 @@ function choosePkm()
     press(1, 2, 100) -- Presiona A rápido 5 veces con pausas entre medio
 end
 
-for i = 1, 100 do
+for i = 1, 200 do
     attempts = i
     -- console:log("Intento #" .. attempts)
     
