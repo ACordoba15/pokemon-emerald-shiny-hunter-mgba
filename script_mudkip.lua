@@ -1,5 +1,5 @@
 -- Pokémon Emerald Shiny Starter Hunter (mGBA)
--- Author: Andres Córdoba
+-- Author: Andrés Córdoba
 -- Description: Automates starter selection until shiny is found
 
 -- ===== CONFIG =====
